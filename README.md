@@ -1,7 +1,15 @@
 ### Source:
 https://github.com/udacity/udacity-nd009t-C2-Developing-ML-Workflow/tree/master/project
 
-# Deploy and monitor a machine learning workflow for Image Classification
+# Project: Deploy and monitor a machine learning workflow for Image Classification
+
+## Repo Structure
+This repo contains below folders and files for the project:
+* Project notebook with key results displayed
+* Project notebook in html format
+* Three folders for Lambda functions
+* Step Function exported to JSON
+* A folder containing images used in the README file
 
 ## Project Overview
 In this project, I used AWS Sagemaker to build an image classification model that can tell bicycles apart from motorcycles. I deployed the model configured with Model Monitor, used AWS Lambda functions to build supporting services, and used AWS Step Function to chain the model and these services into an event-driven application. I then collected invocation and inference data using Model Monitor and performed analysis on the model inferences.
